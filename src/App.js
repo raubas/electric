@@ -1,24 +1,35 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import YT from './YT.js'
+import Logo from './Logo.js'
 import './App.css';
 
 class App extends Component {
+  
+  constructor(props){
+    super(props)
+    this.state = {
+      numberOfViews: 0
+    }
+  }
+  
+  views = (numberOfViews) => {
+    this.setState({numberOfViews})
+  }
+  
   render() {
+    const views = this.state.numberOfViews
+    const toGo = 1000000 - this.state.numberOfViews
     return (
       <div className="App">
+        <YT
+          getViews={this.views}
+          />
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Logo />
+          <p>Totalt antal visningar:</p>
+          <h1>{views}</h1>
+          <p>Visningar kvar:</p>
+          <h1>{toGo}</h1>
         </header>
       </div>
     );
