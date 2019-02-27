@@ -1,13 +1,13 @@
 {
   "main.css": "/electric/static/css/main.c4ec11df.chunk.css",
-  "main.js": "/electric/static/js/main.1bebf23b.chunk.js",
-  "main.js.map": "/electric/static/js/main.1bebf23b.chunk.js.map",
+  "main.js": "/electric/static/js/main.50c4ac07.chunk.js",
+  "main.js.map": "/electric/static/js/main.50c4ac07.chunk.js.map",
   "runtime~main.js": "/electric/static/js/runtime~main.3f608a0f.js",
   "runtime~main.js.map": "/electric/static/js/runtime~main.3f608a0f.js.map",
   "static/js/2.608742d1.chunk.js": "/electric/static/js/2.608742d1.chunk.js",
   "static/js/2.608742d1.chunk.js.map": "/electric/static/js/2.608742d1.chunk.js.map",
   "index.html": "/electric/index.html",
-  "precache-manifest.6d63e8438ccaa906b97be8ce0c35c7ae.js": "/electric/precache-manifest.6d63e8438ccaa906b97be8ce0c35c7ae.js",
+  "precache-manifest.4cd4d3f8b5e752e02fc234079a18848c.js": "/electric/precache-manifest.4cd4d3f8b5e752e02fc234079a18848c.js",
   "service-worker.js": "/electric/service-worker.js",
   "static/css/main.c4ec11df.chunk.css.map": "/electric/static/css/main.c4ec11df.chunk.css.map"
 }
