@@ -2,8 +2,9 @@
   "name": "electric",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://raubas.github.io",
+  "homepage": "http://raubas.github.io/electric",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-load-script": "0.0.6",

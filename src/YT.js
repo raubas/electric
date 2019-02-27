@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Script from 'react-load-script'
 
-const API_KEY = "AIzaSyDnmFK06Zd3EM3Y0FnX8jF_hHJqPetROdQ"
-const VIDEO_ID = 'ydzHiVOUt5k'
+const API_KEY = ""
+const VIDEO_ID = ''
 
 class YT extends Component {
 
@@ -25,7 +25,7 @@ class YT extends Component {
       console.log(e);
     })
   }
-  
+
   render() {
     return false;
   }

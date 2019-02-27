@@ -17,8 +17,10 @@ class App extends Component {
   }
   
   render() {
-    const views = this.state.numberOfViews
-    const toGo = 1000000 - this.state.numberOfViews
+    const views = 1000000
+    const toGo = 0
+    // const views = this.state.numberOfViews
+    // const toGo = 1000000 - this.state.numberOfViews
     return (
       <div className="App">
         <YT
